@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACE85990F26B4575E70176F /* Pods_MultiScrollTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E876714CF069C965936B97 /* Pods_MultiScrollTableView.framework */; };
+		E85251C72371129600A7C087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251C62371129600A7C087 /* AppDelegate.m */; };
+		E85251CD2371129600A7C087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251CC2371129600A7C087 /* ViewController.m */; };
+		E85251D02371129600A7C087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85251CE2371129600A7C087 /* Main.storyboard */; };
+		E85251D22371129700A7C087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85251D12371129700A7C087 /* Assets.xcassets */; };
+		E85251D52371129700A7C087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85251D32371129700A7C087 /* LaunchScreen.storyboard */; };
+		E85251D82371129700A7C087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251D72371129700A7C087 /* main.m */; };
+		E85251E023714AAF00A7C087 /* HTHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251DF23714AAF00A7C087 /* HTHeaderView.m */; };
+		E85251E323714AD400A7C087 /* HTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251E223714AD400A7C087 /* HTModel.m */; };
+		E85251E623714CDD00A7C087 /* HTTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251E523714CDD00A7C087 /* HTTypeView.m */; };
+		E85251E923714E6F00A7C087 /* HTRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251E823714E6F00A7C087 /* HTRightCell.m */; };
+		E85251EC237155B700A7C087 /* HTLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E85251EB237155B700A7C087 /* HTLeftCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1E876714CF069C965936B97 /* Pods_MultiScrollTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiScrollTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B614CF826AB8932756D0CA /* Pods-MultiScrollTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiScrollTableView.release.xcconfig"; path = "Target Support Files/Pods-MultiScrollTableView/Pods-MultiScrollTableView.release.xcconfig"; sourceTree = "<group>"; };
+		E85251C22371129600A7C087 /* MultiScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85251C52371129600A7C087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E85251C62371129600A7C087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E85251CB2371129600A7C087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E85251CC2371129600A7C087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E85251CF2371129600A7C087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E85251D12371129700A7C087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E85251D42371129700A7C087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E85251D62371129700A7C087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85251D72371129700A7C087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85251DE23714AAF00A7C087 /* HTHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTHeaderView.h; sourceTree = "<group>"; };
+		E85251DF23714AAF00A7C087 /* HTHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTHeaderView.m; sourceTree = "<group>"; };
+		E85251E123714AD400A7C087 /* HTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTModel.h; sourceTree = "<group>"; };
+		E85251E223714AD400A7C087 /* HTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTModel.m; sourceTree = "<group>"; };
+		E85251E423714CDD00A7C087 /* HTTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTypeView.h; sourceTree = "<group>"; };
+		E85251E523714CDD00A7C087 /* HTTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTypeView.m; sourceTree = "<group>"; };
+		E85251E723714E6F00A7C087 /* HTRightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTRightCell.h; sourceTree = "<group>"; };
+		E85251E823714E6F00A7C087 /* HTRightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTRightCell.m; sourceTree = "<group>"; };
+		E85251EA237155B700A7C087 /* HTLeftCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTLeftCell.h; sourceTree = "<group>"; };
+		E85251EB237155B700A7C087 /* HTLeftCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTLeftCell.m; sourceTree = "<group>"; };
+		F8629B6CA7166369AAA99E05 /* Pods-MultiScrollTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiScrollTableView.debug.xcconfig"; path = "Target Support Files/Pods-MultiScrollTableView/Pods-MultiScrollTableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85251BF2371129600A7C087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACE85990F26B4575E70176F /* Pods_MultiScrollTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B4560CD66FABFBE01B3CDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E876714CF069C965936B97 /* Pods_MultiScrollTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B66645D5AAFF91ADCB526743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8629B6CA7166369AAA99E05 /* Pods-MultiScrollTableView.debug.xcconfig */,
+				D7B614CF826AB8932756D0CA /* Pods-MultiScrollTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E85251B92371129600A7C087 = {
+			isa = PBXGroup;
+			children = (
+				E85251C42371129600A7C087 /* MultiScrollTableView */,
+				E85251C32371129600A7C087 /* Products */,
+				B66645D5AAFF91ADCB526743 /* Pods */,
+				7B4560CD66FABFBE01B3CDC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E85251C32371129600A7C087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85251C22371129600A7C087 /* MultiScrollTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85251C42371129600A7C087 /* MultiScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E85251C52371129600A7C087 /* AppDelegate.h */,
+				E85251C62371129600A7C087 /* AppDelegate.m */,
+				E85251CB2371129600A7C087 /* ViewController.h */,
+				E85251CC2371129600A7C087 /* ViewController.m */,
+				E85251DE23714AAF00A7C087 /* HTHeaderView.h */,
+				E85251DF23714AAF00A7C087 /* HTHeaderView.m */,
+				E85251EA237155B700A7C087 /* HTLeftCell.h */,
+				E85251EB237155B700A7C087 /* HTLeftCell.m */,
+				E85251E723714E6F00A7C087 /* HTRightCell.h */,
+				E85251E823714E6F00A7C087 /* HTRightCell.m */,
+				E85251E423714CDD00A7C087 /* HTTypeView.h */,
+				E85251E523714CDD00A7C087 /* HTTypeView.m */,
+				E85251E123714AD400A7C087 /* HTModel.h */,
+				E85251E223714AD400A7C087 /* HTModel.m */,
+				E85251CE2371129600A7C087 /* Main.storyboard */,
+				E85251D12371129700A7C087 /* Assets.xcassets */,
+				E85251D32371129700A7C087 /* LaunchScreen.storyboard */,
+				E85251D62371129700A7C087 /* Info.plist */,
+				E85251D72371129700A7C087 /* main.m */,
+			);
+			path = MultiScrollTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85251C12371129600A7C087 /* MultiScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85251DB2371129700A7C087 /* Build configuration list for PBXNativeTarget "MultiScrollTableView" */;
+			buildPhases = (
+				9074BEA06A2F0542B5684ABA /* [CP] Check Pods Manifest.lock */,
+				E85251BE2371129600A7C087 /* Sources */,
+				E85251BF2371129600A7C087 /* Frameworks */,
+				E85251C02371129600A7C087 /* Resources */,
+				B4836A90CADCC611B6A52283 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiScrollTableView;
+			productName = MultiScrollTableView;
+			productReference = E85251C22371129600A7C087 /* MultiScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85251BA2371129600A7C087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = hongtukeji;
+				TargetAttributes = {
+					E85251C12371129600A7C087 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = E85251BD2371129600A7C087 /* Build configuration list for PBXProject "MultiScrollTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E85251B92371129600A7C087;
+			productRefGroup = E85251C32371129600A7C087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85251C12371129600A7C087 /* MultiScrollTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85251C02371129600A7C087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85251D52371129700A7C087 /* LaunchScreen.storyboard in Resources */,
+				E85251D22371129700A7C087 /* Assets.xcassets in Resources */,
+				E85251D02371129600A7C087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9074BEA06A2F0542B5684ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiScrollTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4836A90CADCC611B6A52283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiScrollTableView/Pods-MultiScrollTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiScrollTableView/Pods-MultiScrollTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiScrollTableView/Pods-MultiScrollTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85251BE2371129600A7C087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85251E623714CDD00A7C087 /* HTTypeView.m in Sources */,
+				E85251CD2371129600A7C087 /* ViewController.m in Sources */,
+				E85251E023714AAF00A7C087 /* HTHeaderView.m in Sources */,
+				E85251C72371129600A7C087 /* AppDelegate.m in Sources */,
+				E85251E323714AD400A7C087 /* HTModel.m in Sources */,
+				E85251E923714E6F00A7C087 /* HTRightCell.m in Sources */,
+				E85251EC237155B700A7C087 /* HTLeftCell.m in Sources */,
+				E85251D82371129700A7C087 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E85251CE2371129600A7C087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85251CF2371129600A7C087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E85251D32371129700A7C087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85251D42371129700A7C087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85251D92371129700A7C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E85251DA2371129700A7C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85251DC2371129700A7C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8629B6CA7166369AAA99E05 /* Pods-MultiScrollTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDRP4TN724;
+				INFOPLIST_FILE = MultiScrollTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongtukeji.MultiScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85251DD2371129700A7C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B614CF826AB8932756D0CA /* Pods-MultiScrollTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDRP4TN724;
+				INFOPLIST_FILE = MultiScrollTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongtukeji.MultiScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85251BD2371129600A7C087 /* Build configuration list for PBXProject "MultiScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85251D92371129700A7C087 /* Debug */,
+				E85251DA2371129700A7C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85251DB2371129700A7C087 /* Build configuration list for PBXNativeTarget "MultiScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85251DC2371129700A7C087 /* Debug */,
+				E85251DD2371129700A7C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85251BA2371129600A7C087 /* Project object */;
+}
